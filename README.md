@@ -14,8 +14,13 @@ Jeżeli istnieje tylko 1 wersja linku na archive.org, to jest on w pełni rozwin
 Jeżeli istnieje kilka, to bierze najbliższej zarejestrowany link w stosunku do 2002 roku (archive.org samo przekieruje do odpowiedniego capture).
 
 2) Odsianie linków:
+
 	a) usunięcie ewidentnych obrazków itp.
+
 	b) usunięcie linków nieaktywnych/nieistniejących (?)
+
 3) Zdobycie listy proxy, przez które linki będą crawlowane.
+
 4) Zrobienie listy komend aria2c do crawlowania poszczególnych stron.
+
 5) Zcrawlowanie całego polbox.com
