@@ -1,6 +1,7 @@
 # polbox_crawler
 
 Projekt zaliczeniowy na Inteligentne Systemy Informacyjne 2016
+
 Cel: zcrawlować nieistniejący serwis www.polbox.com przez archive.org.
 
 Zarys etapów do zrealizowania:
