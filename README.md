@@ -15,7 +15,8 @@ Jeżeli istnieje kilka, to bierze najbliższej zarejestrowany link w stosunku do
 
 2) Odsianie linków:
 
-	a) usunięcie ewidentnych obrazków itp.
+	a) usunięcie ewidentnych obrazków itp - ZROBIONE.
+	Linki kończące się na jpg, png, gif i mp3 zostały usunięte z listy skryptem filter_links.py.
 
 	b) usunięcie linków nieaktywnych/nieistniejących (?)
 
