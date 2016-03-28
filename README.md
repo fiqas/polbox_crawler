@@ -70,7 +70,10 @@ Metadane składają się z:
 link nazwa_pliku bajty rok miesiąc dzień godzina minuty sekundy
 
 7) Zapisz ściągnięty link do pliku (nazwa to link z "_" zamiast "/"):
+
 	a) Jeżeli jest to strona, to usuń toolbar Archive.org i zapisz wersję tekstową.
+
+
 	b) Jeżeli jest to plik, to zapisz wersję binarną.
 
 Powyższa metoda jest stosowana dla wszystkich linków dla wszystkich roczników podanych w parametrach. Z każdym kolejnym rocznikiem, jest coraz mniej linków do docrawlowania:
