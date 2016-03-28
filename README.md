@@ -56,6 +56,10 @@ http://web.archive.org/web/*/http://www.polbox.com:80/
 
 http://web.archive.org/web/2002/http://www.polbox.com:80/
 
+Strona podczas crawlingu zostanie automatycznie przekierowana na najbliższy capture w stosunku do roku 2002 (ostatni z roku 2002 lub najbliższy z innego rocznika).
+
+http://web.archive.org/web/20021128210533/http://www.polbox.com/
+
 4) Jeżeli istnieje plik danego linku, to uznajemy, że strona została już ściągnięta - przerywamy.
 
 5) Jeżeli nie istnieje plik, podejmij 3 próby ściągnięcia strony.
@@ -81,3 +85,4 @@ Powyższa metoda jest stosowana dla wszystkich linków dla wszystkich roczników
 
 Teoretycznie program został dostowowany do crawlowania dowolnej domeny z archive.org.
 
+System oczywiście nie jest idealny, sposób ściągania stron jest bardzo prosty, nie sprawdza, czy np. istnieje lepsza wersja strony, która ma więcej zawartości, po prostu bierze najbliższy capture w stosunku do podanego rocznika i może się zdarzyć, że jakiejś strony nie ściągnie.
