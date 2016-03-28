@@ -34,10 +34,15 @@ python3 extract_links.py < links.html > links.txt
 python3 crawl_archive.py -p proxies.txt -d polbox.com -o DATA2/ -l links.txt -m 30 2002 1998 2005
 
 -p = plik z listą proxy HTTPS
+
 -d = domena do ściągnięcia ('esencja', bez http, www itp.)
+
 -o = katalog, do którego wszystkie zcrawlowane strony mają trafić
+
 -l = plik z listą sparsowanych linków
+
 -m = ilość ściąganych linków naraz (ilość procesów w multiprocessing Pool)
+
 Wyrazy wolne tworzą listę roczników, które zostaną zcrawlowane. KOLEJNOŚĆ MA ZNACZENIE. Najpierw zostaną zcrawlowane strony wg rocznika 2002, następnie, jeżeli strona nie została ściągnięta w roczniku 2002, a będzie istniała w 1998, to zostanie docrawlowana. 
 
 Jak crawluje skrypt crawl_archive.py:
