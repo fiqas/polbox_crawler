@@ -12,5 +12,4 @@ print("Found all links", file = sys.stderr)
 
 for a in soup.findAll('a', href = True):
     url = a['href']
-    url = url.replace("/*/", "/2002/")
     print("http://web.archive.org" + url)
